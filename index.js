@@ -9,13 +9,20 @@ const port = process.env.PORT || 3000;
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('public'));
 
-const db = new pg.Client({
-    user:'postgres',
-    host:'localhost',
-    password:'Crc5525473.',
-    port:5432,
-    database:'book',
-});
+// const db = new pg.Client({
+//     user:'postgres',
+//     host:'localhost',
+//     password:'Crc5525473.',
+//     port:5432,
+//     database:'book',
+// });
+
+const db = new Client({
+    connectionString: process.env.DATABASE_URL,
+    ssl: {
+      rejectUnauthorized: false
+    }
+  });
 db.connect();
 
 
