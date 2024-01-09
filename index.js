@@ -17,7 +17,7 @@ app.use(express.static('public'));
 //     database:'book',
 // });
 
-const db = new Client({
+const db = new pg.Client({
     connectionString: process.env.DATABASE_URL,
     ssl: {
       rejectUnauthorized: false
