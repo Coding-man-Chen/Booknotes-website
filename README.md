@@ -31,3 +31,5 @@ CREATE TABLE notes
 )
 ```
 ## Effect
+![image](https://github.com/Coding-man-Chen/Booknotes-website/blob/main/example.jpg)
+![image](https://github.com/Coding-man-Chen/Booknotes-website/blob/main/example_2.jpg)
