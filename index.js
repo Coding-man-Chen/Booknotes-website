@@ -9,20 +9,20 @@ const port = process.env.PORT || 3000;
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('public'));
 
-// const db = new pg.Client({
-//     user:'postgres',
-//     host:'localhost',
-//     password:'Crc5525473.',
-//     port:5432,
-//     database:'book',
-// });
-
 const db = new pg.Client({
-    connectionString: process.env.DATABASE_URL,
-    ssl: {
-      rejectUnauthorized: false
-    }
-  });
+    user:'booknote_ypdz_user',
+    host:'dpg-cmehcn6n7f5s73frko30-a',
+    password:'sgWDl5BOlpCX6lczXihnom0PsgcmsVBj',
+    port:5432,
+    database:'booknote_ypdz',
+});
+
+// const db = new pg.Client({
+//     connectionString: process.env.DATABASE_URL,
+//     ssl: {
+//       rejectUnauthorized: false
+//     }
+//   });
 db.connect();
 
 
