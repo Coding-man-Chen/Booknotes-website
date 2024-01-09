@@ -1,0 +1,206 @@
+@font-face {
+    font-family: "Valkyrie C4";
+    src: url("https://db.onlinewebfonts.com/t/5ef1d874f7e6c2b682f531ccf6479eeb.eot");
+    src: url("https://db.onlinewebfonts.com/t/5ef1d874f7e6c2b682f531ccf6479eeb.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5ef1d874f7e6c2b682f531ccf6479eeb.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5ef1d874f7e6c2b682f531ccf6479eeb.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/5ef1d874f7e6c2b682f531ccf6479eeb.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5ef1d874f7e6c2b682f531ccf6479eeb.svg#Valkyrie C4")format("svg");
+    font-family: "Georgia";
+    src: url("https://db.onlinewebfonts.com/t/7dca09e227fdfe16908cebb4244589e4.eot");
+    src: url("https://db.onlinewebfonts.com/t/7dca09e227fdfe16908cebb4244589e4.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/7dca09e227fdfe16908cebb4244589e4.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/7dca09e227fdfe16908cebb4244589e4.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/7dca09e227fdfe16908cebb4244589e4.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/7dca09e227fdfe16908cebb4244589e4.svg#Georgia")format("svg");
+}
+h1{
+    font-size: 60px;
+    color: transparent;
+    text-shadow:
+      0px 0px 1px rgba(255, 255, 255, .6),
+      0px 4px 4px rgba(0, 0, 0, .05);
+    letter-spacing: .2rem;
+}
+h4{
+    color: #666666;
+}
+body{
+    font-family: "Valkyrie C4";
+    background-color: transparent;
+    color: black;
+}
+hr{
+    border: 1px solid white;
+}
+.h2-detail{
+    font-size: 60px !important;
+}
+p{
+    font-size: 25px;
+    font-family: 'Georgia';
+    font-weight:500;
+    white-space: pre-wrap;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    background-color: #e493d0;
+    background-image: 
+      radial-gradient(closest-side, rgba(235, 105, 78, 1), rgba(235, 105, 78, 0)),
+      radial-gradient(closest-side, rgba(243, 11, 164, 1), rgba(243, 11, 164, 0)),
+      radial-gradient(closest-side, rgba(254, 234, 131, 1), rgba(254, 234, 131, 0)),
+      radial-gradient(closest-side, rgba(170, 142, 245, 1), rgba(170, 142, 245, 0)),
+      radial-gradient(closest-side, rgba(248, 192, 147, 1), rgba(248, 192, 147, 0));
+    background-size: 
+      130vmax 130vmax,
+      80vmax 80vmax,
+      90vmax 90vmax,
+      110vmax 110vmax,
+      90vmax 90vmax;
+    background-position:
+      -80vmax -80vmax,
+      60vmax -30vmax,
+      10vmax 10vmax,
+      -30vmax -10vmax,
+      50vmax 50vmax;
+    background-repeat: no-repeat;
+    animation: 10s movement linear infinite;
+     }
+     html::after {
+        content: '';
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        /* backdrop-filter: blur(10px); */
+        -webkit-backdrop-filter: blur(10px);
+        pointer-events: none;
+      }
+      @keyframes movement {
+        0%, 100% {
+          background-size: 
+            130vmax 130vmax,
+            80vmax 80vmax,
+            90vmax 90vmax,
+            110vmax 110vmax,
+            90vmax 90vmax;
+          background-position:
+            -80vmax -80vmax,
+            60vmax -30vmax,
+            10vmax 10vmax,
+            -30vmax -10vmax,
+            50vmax 50vmax;
+        }
+        25% {
+          background-size: 
+            100vmax 100vmax,
+            90vmax 90vmax,
+            100vmax 100vmax,
+            90vmax 90vmax,
+            60vmax 60vmax;
+          background-position:
+            -60vmax -90vmax,
+            50vmax -40vmax,
+            0vmax -20vmax,
+            -40vmax -20vmax,
+            40vmax 60vmax;
+        }
+        50% {
+          background-size: 
+            80vmax 80vmax,
+            110vmax 110vmax,
+            80vmax 80vmax,
+            60vmax 60vmax,
+            80vmax 80vmax;
+          background-position:
+            -50vmax -70vmax,
+            40vmax -30vmax,
+            10vmax 0vmax,
+            20vmax 10vmax,
+            30vmax 70vmax;
+        }
+        75% {
+          background-size: 
+            90vmax 90vmax,
+            90vmax 90vmax,
+            100vmax 100vmax,
+            90vmax 90vmax,
+            70vmax 70vmax;
+          background-position:
+            -50vmax -40vmax,
+            50vmax -30vmax,
+            20vmax 0vmax,
+            -10vmax 10vmax,
+            40vmax 60vmax;
+        }
+      }
+   .detail-content{
+    background-color:rgb(256, 256, 256,0.7);
+    border-radius: 40px;
+   }
+   .btn{
+    background-color:#b155ee;
+    color: transparent;
+    font-size: 20px;
+    border-color: transparent;
+    text-shadow:
+      0px 0px 1px rgba(255, 255, 255, .6),
+      0px 4px 4px rgba(0, 0, 0, .05);
+    border-radius: 20px;
+   }
+   .btn:hover, .btn:active, .btn:focus,.btn:visited{
+    color: transparent!important;
+    text-shadow:
+      0px 0px 1px rgba(255, 255, 255, .6),
+      0px 4px 4px rgba(0, 0, 0, .05);
+   }
+  .dropdown-menu{
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .dropdown-item{
+    color: white;
+    font-size: 20px;
+  }
+  .dropdown-item:hover{
+    background-color: transparent;
+  }
+  .btnModal{
+    background-color:#b155ee;
+    color: transparent;
+    font-size: 20px;
+    border-color: transparent;
+    text-shadow:
+      0px 0px 1px rgba(255, 255, 255, .6),
+      0px 4px 4px rgba(0, 0, 0, .05);
+    border-radius: 20px;
+  }
+  h5{
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .modal-footer{
+    display: flex;
+    flex-direction: column;
+    border-top: none;
+  }
+  .modal-button{
+    width: 80%;
+  }
+  .modal-body{
+    text-align: center;
+  }
+  .modal-header{
+    border-bottom: none;
+  }
+  .modal-dialog{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) !important;
+    min-width: 300px;
+  }
