@@ -96,6 +96,6 @@ app.get('/delete',async (req, res) => {
 })
 
 
-app.listen(3000, () => {
- console.log('App running on port 3000')
+app.listen(process.env.PORT || 3000, () => {
+ console.log(`App running on port 3000`)
 })
