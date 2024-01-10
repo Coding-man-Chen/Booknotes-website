@@ -1,9 +1,9 @@
 # Booknotes-website
 A project to let me get more experience in node express and postgreSql.
-Users can give review and rate books by entering the ISBN code of the book through this web page. The software will automatically search for the data name and cover image, and the data will be stored in PostgreSQL data. Users can also modify and delete reviews, and edit existing Some reviews are sorted by time and rating.
+Users can give review and rate books by entering the ISBN code of the book through this web page. The software will automatically search for the data name and cover image, and the data will be stored in PostgreSQL database. Users can also modify and delete reviews, and edit existing Some reviews are sorted by time and rating.
 ## Demo
-I have deployed a demo in Heroku, anyone can try it when he wants:)  
-Demo: https://notebook-project-a04257bcd84a.herokuapp.com/
+I have deployed a demo in Render, anyone can try it when he wants:)  
+Demo: https://notebook-project.onrender.com/
 ## Installation
 ```console
 $ npm install
